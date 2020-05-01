@@ -1,0 +1,35 @@
+morning:
+  DELL P2214H:
+    brightness: 0
+    contrast: 48
+  S221HQL:
+    brightness: 10
+    contrast: 100
+afternoon:
+  DELL P2214H:
+    brightness: 0
+    contrast: 45
+  S221HQL:
+    brightness: 0
+    contrast: 80
+evening:
+  DELL P2214H:
+    brightness: 0
+    contrast: 32
+  S221HQL:
+    brightness: 0
+    contrast: 50
+night:
+  DELL P2214H:
+    brightness: 0
+    contrast: 25
+  S221HQL:
+    brightness: 0
+    contrast: 0
+midnight:
+  DELL P2214H:
+    brightness: 0
+    contrast: 25
+  S221HQL:
+    brightness: 0
+    contrast: 0
