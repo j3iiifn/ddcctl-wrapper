@@ -45,7 +45,7 @@ def main():
     with open(args.config, 'r') as f:
         config = yaml.safe_load(f)
 
-    num_displays = int(extract('found (\d) external displays', run_command(['ddcctl'])))
+    num_displays = int(extract('found (\d) external displays*', run_command(['ddcctl'])))
 
     for i in range(1, num_displays + 1):
         stdout = run_command(['ddcctl', '-d', str(i)])
