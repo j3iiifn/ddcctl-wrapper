@@ -8,7 +8,11 @@ def run_command(args):
 
 
 def extract(pattern, string):
-    return re.search(pattern, string).groups()[0]
+    match = re.search(pattern, string)
+    if match:
+        return match.groups()[0]
+    else:
+        return None
 
 
 def display_setting(config, mode, display_key, display_num):
